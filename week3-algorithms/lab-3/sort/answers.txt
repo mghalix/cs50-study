@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: it performed better than sort3 (selection sort) on sorted50000.txt which is reasonable since it doesn't check the sorted elements from back again
+
+sort2 uses: Merge Sort
+
+How do you know?: it was the fastest sorting the random50000.txt which indicates the algorithm used is non-quadratic
+
+sort3 uses: Selection Sort
+
+How do you know?: it was the slowest on sorted set of numbers since it iterates through the whole list anyways even if its sorted it doesnt hold a boolean variable that allows the function to break in case nothing is swapped
